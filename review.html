@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code.org Review</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ <style>
+
+</style>
+</head>
+
+<body>
+ <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+         
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ExtraProjects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="labs.html">Labs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="review.html">Review</a>
+      </li>
+    </ul>
+  </div>
+</nav>-->
+
+<div class="offcanvas offcanvas-start text-bg-dark" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title" style="text-align: center;">Where would you like to go?</h1>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <a href="index.html" class="active" style="text-decoration: none; color: ghostwhite;"><h2>Home</h2></a>
+    <a href="ExtraProjects.html" style="text-decoration: none; color: ghostwhite;"><h2>Projects</h2></a>
+    <a href="review.html" style="text-decoration: none; color: ghostwhite;"><h2>Review</h2></a>
+    <a href="labs.html" style="text-decoration: none; color: ghostwhite;"><h2>Lab</h2></a>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+<div class="container-fluid mt-3">
+  <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"><h2> &#9776; Menu</h2>
+  </button>
+</div>
+  </div>
+</nav>
+  <br>
+<div style="text-align: center;">
+  <h1>Reviews</h1>
+    <h3>
+     Throughout this year we used Code.org to teach us lessons in Web Development. Here are summaries of each unit we went through. 
+    </h3>
+  </div>
+  <div>
+   <br>
+  
+  <div id="accordion">
+
+  <!--Collapsable One-->
+  <div class="card">
+    <div class="card-header" >
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseOne">
+       Unit 1 - Digital Information
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+       This unit explores the technical challenges and questions that arise from the need to represent digital information in computers. Learn how complex information like numbers, text, images, and sound are represented in text, how compression works, and the broader social impacts of digitizing the world's information.
+        <br>
+        <br>
+        <a href="https://codeorg-unit-review-intro-css-jauneldeans.wdp7-8.repl.co/" target="_blank">Digital Information</a>
+        <br>
+        <br>
+        Below is the code for used to create the card.
+      </div>
+    </div>
+  </div>
+
+  <!--Collapsable Two-->
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseTwo">
+        Unit 2 - The Internet
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+       This unit reveals how the Internet was designed to connect billions of devices and people to one another. Learn how the different protocols of the Internet work and actually build them yourself using the Internet Simulator. Then consider the impacts the Internet has had, both good and bad, on modern life.
+        <br>
+        <br>
+        <a href="https://codeorg-unit-2-review-the-internet-jauneldeans.wdp7-8.repl.co/" target="_blank">The Internet</a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+  </div>
+  </div>
+    
+ <!--Collapsable Three-->
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseThree">
+       Unit 3 - Introduction to App Design
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+        This unit is an introduction to programming and app design with a heavy focus on important skills like debugging, pair programming, and user testing. Learn how to design user interfaces and write event-driven programs in App Lab and then design a project that teaches your classmates about a topic of your choosing.
+        <br>
+        <br>
+        <a href="https://codeorg-unit-3-review-intro-to-app-design-jauneldeans.wdp7-8.repl.co/" target="_blank">Intro to App Design</a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+
+   <!--Collapsable Four-->
+<div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseFour">
+        Unit 4 - Variables, Conditionals, and Functions
+      </a>
+    </div>
+    <div id="collapseFour" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+        This unit explores how variables, conditionals, and functions allow for the design of increasingly complex apps. Learn how to program with these three new concepts through a sequence of collaborative activities. Then build your own decision maker app to share with friends and help them make a decision.
+        <br>
+        <br>
+<a href="https://codeorg-unit-4-review-variablesconditionals-jauneldeans.wdp7-8.repl.co/" target="_blank"> Variables, Conditionals, and Functions</a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+
+   <!--Collapsable Five-->
+<div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseFive">
+        Unit 5 - Lists, Loops, and Traversals
+      </a>
+    </div>
+    <div id="collapseFive" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+       This unit introduces lists, loops, and traversals, and explores the way they can be used to build apps that store and process large amounts of information. Learn to program with the data library in App Lab and complete a 5-day hackathon project at the end of the unit where you can design a program about any topic of your choosing.
+        <br>
+        <br>
+<a href="https://codeorg-unit-5-review-lists-loops-and-travers-jauneldeans.wdp7-8.repl.co/" target="_blank">List, Loops, and Traversals</a>
+        <br>
+        <br>
+        Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+
+   <!--Collapsable Six-->
+<div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseSix">
+       Unit 6 - Algorithms
+      </a>
+    </div>
+    <div id="collapseSix" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+        This unit is a quick exploration of how computer scientists design algorithms to solve problems and how they analyze the speed of different algorithms. Learn about the concept of algorithmic efficiency through a variety of hands-on activities and learn how it's being applied in modern computing.
+        <br>
+        <br>
+<a href="https://codeorg-unit-6-review-algorithms-jauneldeans.wdp7-8.repl.co/" target="_blank">Algorithms</a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+
+     <!--Collapsable Seven-->
+<div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseSeven">
+       Unit 7 - Parameters, Return, and Libraries 
+      </a>
+    </div>
+    <div id="collapseSeven" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+        This unit introduces parameters, return, and libraries. Learn how to use these concepts to build new kinds of apps as well as libraries of code that you can share with your classmates. End the unit by designing a library of functions around any topic of your choosing.
+        <br>
+        <br>
+<a href="https://codeorg-unit-7-review-parameters-and-return-jauneldeans.wdp7-8.repl.co/" target="_blank"> Parameters, Return, and Libraries  </a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+
+     <!--Collapsable Eight-->
+    <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn bg-warning" data-bs-toggle="collapse" href="#collapseEight">
+        HTML-CSS Review
+      </a>
+    </div>
+    <div id="collapseEight" class="collapse bg-warning" data-bs-parent="#accordion">
+      <div class="card-body">
+      This website is an overview of a majority of HTML and CSS tags and attributes that we learnt throughout the year. 
+        <br>
+        <br>
+<a href="https://html-cssreviewfiles-jauneldeans.wdp7-8.repl.co/" target="_blank">HTMl & CSS</a>
+        <br>
+        <br>
+         Below is the code used to make the project: 
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
